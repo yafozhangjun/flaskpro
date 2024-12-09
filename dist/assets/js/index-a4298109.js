@@ -1,0 +1,1 @@
+import{bD as a,__tla as p}from"./index-acc4e75c.js";let s,o,u,e,r,l=Promise.all([(()=>{try{return p}catch{}})()]).then(async()=>{u=t=>a.get("/authRuleList",t),s=t=>a.get("/authGroupList",t),o=t=>a.post("/addAuthGroup",t),r=t=>a.post("/saveAuthGroup",t),e=t=>a.post("/delAuthGroup",t)});export{l as __tla,s as a,o as b,u as c,e as d,r as s};

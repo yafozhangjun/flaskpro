@@ -1,0 +1,1 @@
+import{bD as a,__tla as r}from"./index-acc4e75c.js";let i,s,o,c,d=Promise.all([(()=>{try{return r}catch{}})()]).then(async()=>{o=t=>a.get("/dictionary/dicList",t),s=t=>a.post("/dictionary/addDic",t),c=t=>a.post("/dictionary/saveDic",t),i=t=>a.post("/dictionary/delDic",t)});export{d as __tla,i as a,s as b,o as d,c as s};
