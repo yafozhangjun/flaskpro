@@ -4,10 +4,15 @@ from auth_rule_list import *
 from dictionary import *
 from logins import *
 from flask import Flask, send_from_directory
+from flask_cors import CORS
 
 
 #app = Flask(__name__)
 app = Flask(__name__, static_folder='dist', static_url_path='')
+
+#同源设置
+CORS(app)
+
 @app.route('/')
 def serve_vue_app():
     return send_from_directory(app.static_folder, 'index.html')
